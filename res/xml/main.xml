@@ -146,4 +146,12 @@
             android:summary="@string/fps_info_summary"
             android:persistent="true" />
     </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Other Information">
+
+        <Preference
+            android:icon="@drawable/ic_info"
+            android:summary="@string/devinfo"
+            android:title="Developer Information" />
+    </PreferenceCategory>
 </PreferenceScreen>
